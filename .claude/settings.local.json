@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem D:\\\\cliproomstudio -ErrorAction SilentlyContinue; if \\(-not \\(Test-Path D:\\\\cliproomstudio\\)\\) { Write-Host \"Directory does not exist\" })"
+    ]
+  }
+}
