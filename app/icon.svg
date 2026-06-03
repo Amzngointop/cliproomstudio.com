@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#1e0a3c"/>
+  <!-- Film clip / clapperboard icon in neon yellow -->
+  <!-- Main body -->
+  <rect x="5" y="13" width="22" height="14" rx="2" fill="#facc15"/>
+  <!-- Clapperboard top bar -->
+  <rect x="5" y="9" width="22" height="4" rx="1" fill="#facc15"/>
+  <!-- Diagonal stripes on top bar (clapperboard style) -->
+  <line x1="10" y1="9" x2="8" y2="13" stroke="#1e0a3c" stroke-width="2"/>
+  <line x1="15" y1="9" x2="13" y2="13" stroke="#1e0a3c" stroke-width="2"/>
+  <line x1="20" y1="9" x2="18" y2="13" stroke="#1e0a3c" stroke-width="2"/>
+  <line x1="25" y1="9" x2="23" y2="13" stroke="#1e0a3c" stroke-width="2"/>
+  <!-- Camera lens circle on body -->
+  <circle cx="16" cy="20" r="4" fill="#1e0a3c"/>
+  <circle cx="16" cy="20" r="2.5" fill="#facc15" opacity="0.6"/>
+</svg>

@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell(Get-ChildItem D:\\\\cliproomstudio -ErrorAction SilentlyContinue; if \\(-not \\(Test-Path D:\\\\cliproomstudio\\)\\) { Write-Host \"Directory does not exist\" })"
+      "PowerShell(Get-ChildItem D:\\\\cliproomstudio -ErrorAction SilentlyContinue; if \\(-not \\(Test-Path D:\\\\cliproomstudio\\)\\) { Write-Host \"Directory does not exist\" })",
+      "PowerShell(New-Item -ItemType Directory -Path D:\\\\cliproomstudio\\\\data -Force)",
+      "PowerShell(New-Item -ItemType Directory -Path D:\\\\cliproomstudio\\\\components -Force)",
+      "Bash(npm run *)"
     ]
   }
 }
