@@ -270,7 +270,7 @@ export default function HomePage() {
                     <h3 style={{ color: "#1e0a3c", fontWeight: 700, fontSize: "0.95rem", lineHeight: 1.4, marginBottom: "16px" }}>
                       {product.name}
                     </h3>
-                    <a href={`https://www.amazon.com/dp/${product.asin}?tag=YOURTAG-20`} target="_blank" rel="noopener noreferrer sponsored" style={{ display: "inline-flex", alignItems: "center", gap: "6px", backgroundColor: "#facc15", color: "#1e0a3c", padding: "9px 18px", borderRadius: "8px", fontWeight: 700, fontSize: "0.875rem", textDecoration: "none", transition: "transform 0.15s ease" }} className="hover:scale-105">
+                    <a href={product.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" style={{ display: "inline-flex", alignItems: "center", gap: "6px", backgroundColor: "#facc15", color: "#1e0a3c", padding: "9px 18px", borderRadius: "8px", fontWeight: 700, fontSize: "0.875rem", textDecoration: "none", transition: "transform 0.15s ease" }} className="hover:scale-105">
                       View on Amazon <ArrowRight size={15} />
                     </a>
                   </div>
@@ -309,7 +309,7 @@ export default function HomePage() {
                     <h3 style={{ color: "#1e0a3c", fontWeight: 700, fontSize: "0.95rem", lineHeight: 1.4, marginBottom: "16px" }}>
                       {product.name}
                     </h3>
-                    <a href={`${product.affiliateUrl}`} target="_blank" rel="noopener noreferrer sponsored" style={{ display: "inline-flex", alignItems: "center", gap: "6px", backgroundColor: "#facc15", color: "#1e0a3c", padding: "9px 18px", borderRadius: "8px", fontWeight: 700, fontSize: "0.875rem", textDecoration: "none", transition: "transform 0.15s ease" }} className="hover:scale-105">
+                    <a href={product.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" style={{ display: "inline-flex", alignItems: "center", gap: "6px", backgroundColor: "#facc15", color: "#1e0a3c", padding: "9px 18px", borderRadius: "8px", fontWeight: 700, fontSize: "0.875rem", textDecoration: "none", transition: "transform 0.15s ease" }} className="hover:scale-105">
                       View on Amazon <ArrowRight size={15} />
                     </a>
                   </div>
