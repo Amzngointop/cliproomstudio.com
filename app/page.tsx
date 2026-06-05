@@ -21,30 +21,35 @@ const featuredProducts = [
     name: "Mini Mic Pro (Latest Model)",
     category: "Microphones",
     imageUrl: "https://m.media-amazon.com/images/I/711s6fypzWL._AC_SL1500_.jpg",
+    affiliateUrl: 'https://www.amazon.com/Mini-Mic-Pro-Professional-Microphone/dp/B0CMJTSVRW?th=1&linkCode=ll2&tag=cliproomstudi-20&linkId=d7560a5fec53fc7ff4ee4251705ce80f&language=en_US&ref_=as_li_ss_tl',
   },
-  {
+    {
     asin: "B0C2C9QT91",
     name: "ALTSON 60 LED Portable Selfie Light",
     category: "Lighting",
     imageUrl: "https://m.media-amazon.com/images/I/71mi169ArHL._AC_SL1500_.jpg",
+    affiliateUrl: 'https://www.amazon.com/ALTSON-Portable-Conference-Lighting-Rechargeable/dp/B0C2C9QT91?th=1&linkCode=ll2&tag=cliproomstudi-20&linkId=55efa37d32fa5101d2aef7471a8bbede&language=en_US&ref_=as_li_ss_tl',
   },
   {
     asin: "B09TQY66NH",
     name: "SENSYNE 62\" Phone Tripod & Selfie Stick",
     category: "Tripods",
     imageUrl: "https://m.media-amazon.com/images/I/51svJuNXDyL._AC_SL1500_.jpg",
+    affiliateUrl: 'https://www.amazon.com/Sensyne-Extendable-Wireless-Compatible-Android/dp/B09TQY66NH?th=1&linkCode=ll2&tag=cliproomstudi-20&linkId=1b2b68716075fddaf223fe6cbb9240fc&language=en_US&ref_=as_li_ss_tl',
   },
   {
     asin: "B0BXGFFSL1",
     name: "Logitech Brio 101 Full HD 1080p Webcam",
     category: "Webcams",
     imageUrl: "https://m.media-amazon.com/images/I/71A0Pp767BL._AC_SL1500_.jpg",
+    affiliateUrl: 'https://www.amazon.com/Logitech-Webcam-Meetings-Streaming-Built/dp/B0BXGFFSL1?th=1&linkCode=ll2&tag=cliproomstudi-20&linkId=a288fedd920e5304ca40dc4eaa3b677a&language=en_US&ref_=as_li_ss_tl',
   },
   {
     asin: "B0991Q94KP",
     name: "Govee RGBIC LED Strip Lights 16.4ft",
     category: "LED Lights",
     imageUrl: "https://m.media-amazon.com/images/I/71tjdZg28vL._AC_SL1500_.jpg",
+    affiliateUrl: 'https://www.amazon.com/Govee-Control-Segmented-Bluetooth-Changing/dp/B0991Q94KP?th=1&linkCode=ll2&tag=cliproomstudi-20&linkId=383823a01fcbad94ca17e70fdf0ca10d&language=en_US&ref_=as_li_ss_tl',
   },
 ];
 
