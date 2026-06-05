@@ -5,7 +5,7 @@ export const site = {
   description:
     "Gear reviews and setup guides for TikTok, YouTube, and UGC creators filming in small rooms. Find the best mics, ring lights, tripods, and more.",
   tagline: "Stop Filming in the Dark.",
-  affiliateTag: "YOURTAG-20",
+  affiliateTag: "cliproomstudi-20",
   email: "contact@cliproomstudio.com",
   social: {
     youtube: "https://youtube.com/@cliproomstudio",
